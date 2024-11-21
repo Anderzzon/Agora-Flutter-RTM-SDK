@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'io.agora.agora_rtm'
     compileSdkVersion 31
 
     compileOptions {
@@ -41,10 +42,8 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 31
     }
-
-    namespace 'io.agora.agora_rtm'
 }
 
 dependencies {
